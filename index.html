@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>💕 Be My Valentine? 💕</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Hearts -->
+    <div class="bg-hearts" id="bgHearts"></div>
+
+    <!-- Main Container -->
+    <div class="container" id="mainContainer">
+        
+        <!-- Proposal Card -->
+        <div class="card" id="proposalCard">
+            
+            <!-- Top Decoration -->
+            <div class="card-ribbon">
+                <span>💝</span>
+            </div>
+
+            <!-- Cute Bear/Character -->
+            <div class="character-wrap">
+                <div class="character" id="character">
+                    <div class="bear">
+                        <div class="bear-ears">
+                            <div class="ear left"></div>
+                            <div class="ear right"></div>
+                        </div>
+                        <div class="bear-face">
+                            <div class="bear-eyes">
+                                <div class="eye left">
+                                    <div class="pupil"></div>
+                                    <div class="shine"></div>
+                                </div>
+                                <div class="eye right">
+                                    <div class="pupil"></div>
+                                    <div class="shine"></div>
+                                </div>
+                            </div>
+                            <div class="bear-blush left"></div>
+                            <div class="bear-blush right"></div>
+                            <div class="bear-nose"></div>
+                            <div class="bear-mouth" id="bearMouth"></div>
+                        </div>
+                        <div class="bear-body">
+                            <div class="bear-heart">💕</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Floating hearts around character -->
+                <div class="char-hearts">
+                    <span class="ch ch1">💕</span>
+                    <span class="ch ch2">💖</span>
+                    <span class="ch ch3">💗</span>
+                </div>
+            </div>
+
+            <!-- Title -->
+            <h1 class="title">Will You Be My Valentine?</h1>
+
+            <!-- Message Box -->
+            <div class="message-box">
+                <p class="message" id="message">I think you're really special! 💕</p>
+            </div>
+
+            <!-- Love Meter -->
+            <div class="love-meter">
+                <div class="meter-label">
+                    <span>💕</span>
+                    <span>Love Meter</span>
+                    <span>💕</span>
+                </div>
+                <div class="meter-track">
+                    <div class="meter-fill" id="meterFill"></div>
+                    <div class="meter-glow"></div>
+                </div>
+                <p class="meter-text" id="meterText">Waiting for your answer...</p>
+            </div>
+
+            <!-- Buttons Area -->
+            <div class="buttons-area" id="buttonsArea">
+                <button class="btn btn-yes" id="btnYes">
+                    Yes! 💖
+                </button>
+                <button class="btn btn-no" id="btnNo">
+                    No
+                </button>
+            </div>
+
+            <!-- Status Text -->
+            <p class="status-text" id="statusText"></p>
+
+        </div>
+
+    </div>
+
+    <!-- Success Overlay -->
+    <div class="success-overlay" id="successOverlay">
+        <div class="success-bg" id="successBg"></div>
+        <div class="success-card" id="successCard">
+            
+            <!-- Celebration Emoji -->
+            <div class="celeb-emoji">🎉</div>
+            
+            <!-- Title -->
+            <h1 class="success-title">YAAAY!</h1>
+            <p class="success-sub">You just made me the happiest person ever!</p>
+
+            <!-- Happy Couple -->
+            <div class="couple">
+                <span class="c-person">🥰</span>
+                <div class="c-hearts">
+                    <span>💕</span>
+                    <span>💖</span>
+                    <span>💕</span>
+                </div>
+                <span class="c-person">😍</span>
+            </div>
+
+            <!-- Promises -->
+            <div class="promises-box">
+                <h3>💝 My Promises To You 💝</h3>
+                <ul class="promises-list" id="promisesList">
+                    <li data-delay="1">Endless cuddles and hugs 🤗</li>
+                    <li data-delay="2">Surprise chocolates 🍫</li>
+                    <li data-delay="3">Movie nights together 🎬</li>
+                    <li data-delay="4">Always make you smile 😊</li>
+                    <li data-delay="5">Love you forever 💕</li>
+                </ul>
+            </div>
+
+            <!-- Date -->
+            <div class="vday-badge">
+                <span>💕</span>
+                <span> Valentine's Day2026</span>
+                <span>💕</span>
+            </div>
+
+            <!-- Final Message -->
+            <p class="final-msg">I Love You To The Moon & Back! 🌙✨</p>
+
+            <!-- Restart -->
+            <button class="btn-again" id="btnAgain">Ask Again? 💕</button>
+
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
