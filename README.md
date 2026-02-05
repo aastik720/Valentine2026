@@ -89,6 +89,6 @@ The only option left? **Say YES!** 💖
 ## 🎬 Live Demo
 
 ### 🔗 [ https://aastik720.github.io/Valentine2026/](#) 
-*(Replace with your GitHub Pages or hosting link)*
+
 
 ### 📸 Preview
